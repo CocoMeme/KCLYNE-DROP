@@ -38,3 +38,7 @@ Route::get('/create-product', function () {
     return view('Products/create');
 });
 
+Route::get('/create-user', function () {
+    return view('Products/create');
+});
+
